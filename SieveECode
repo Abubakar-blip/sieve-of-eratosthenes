@@ -6,7 +6,7 @@ public class SieveOfEratosthenes {
 	    Scanner scan = new Scanner(System.in);
 		System.out.println("Enter a number: ");
 		int num = scan.nextInt();
-		boolean [] A = new boolean[1000000000];
+		boolean [] A = new boolean[num];
 	
 		A[0] = true;
 		A[1] = true;
